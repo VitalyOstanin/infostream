@@ -3,16 +3,19 @@
 Ma’lumot, xavfsizlik va unumdorlik ustidan nazoratni saqlash uchun qisqa va amaliy ko‘rsatmalar.
 
 ## Mundarija
-- [Asboblar tashkiloti](#asboblar-tashkiloti)
-- [OT tanlovi va xavfsizlik gigiyenasi](#ot-tanlovi-va-xavfsizlik-gigiyenasi)
-- [Smartfonlar: xavfsizlik va unumdorlik](#smartfonlar-xavfsizlik-va-unumdorlik)
-- [Diskni shifrlash](#diskni-shifrlash)
-- [Shaxsiy bilim bazasi](#shaxsiy-bilim-bazasi)
-- [Parollar menejeri](#parollar-menejeri)
-- [Axborot oqimlari bilan ishlash](#axborot-oqimlari-bilan-ishlash)
-- [Tezkor qidiruv misollari](#tezkor-qidiruv-misollari)
-- [Qisqa tekshiruv ro‘yxati](#qisqa-tekshiruv-royxati)
- - [Nega Git faqat dasturchilar uchun emas](#nega-git-faqat-dasturchilar-uchun-emas)
+- [Axborot oqimlari va raqamli muhit bilan ishlash](#axborot-oqimlari-va-raqamli-muhit-bilan-ishlash)
+  - [Mundarija](#mundarija)
+  - [Asboblar tashkiloti](#asboblar-tashkiloti)
+  - [OT tanlovi va xavfsizlik gigiyenasi](#ot-tanlovi-va-xavfsizlik-gigiyenasi)
+  - [Smartfonlar: xavfsizlik va unumdorlik](#smartfonlar-xavfsizlik-va-unumdorlik)
+  - [Diskni shifrlash](#diskni-shifrlash)
+  - [Shaxsiy bilim bazasi](#shaxsiy-bilim-bazasi)
+  - [Parollar menejeri](#parollar-menejeri)
+  - [Axborot oqimlari bilan ishlash](#axborot-oqimlari-bilan-ishlash)
+  - [Tezkor qidiruv misollari](#tezkor-qidiruv-misollari)
+  - [Qisqa tekshiruv ro‘yxati](#qisqa-tekshiruv-royxati)
+  - [Nega Git faqat dasturchilar uchun emas](#nega-git-faqat-dasturchilar-uchun-emas)
+  - [Bag‘ishlov](#bagishlov)
 
 ## Asboblar tashkiloti
 - Asosiy qurilma: noutbuk — maksimal nazorat; smartfon — yordamchi vosita.
@@ -44,7 +47,7 @@ Ma’lumot, xavfsizlik va unumdorlik ustidan nazoratni saqlash uchun qisqa va am
 - Manzil satridagi qisqa prefikslar kerakli xizmat bo‘yicha darhol qidirishni beradi.
 
 Qanday sozlash:
-1) Chrome → Sozlamalar → Qidiruv tizimi → Qidiruv tizimlari va sayt qidiruvini boshqarish.  
+1) Chrome → Sozlamalar → Qidiruv tizimi → Qidiruv tizimlari va sayt qidiruvini boshqarish.
 2) “Qo‘shish” tugmasi → Nomi, kalit so‘zi va `%s` o‘rnini bosuvchi URL’ni kiriting.
 
 Misollar (nusxa olish uchun qulay jadval):
@@ -82,3 +85,6 @@ Git — https://git-scm.com — dasturiy ta’minotdan tashqarida ham keng qo‘
 - Asosiy afzalliklar: o‘zgarishlar tarixi, hamkorlik, zaxiralash, tajribalar uchun tarmoqlanish va standartlashtirilgan jamoaviy ish oqimi — Git IT’ning lingua franca’si.
 
 Minimal ko‘nikmalar: klonlash/commit/branch, PR/MR ochish, konfliktlarni hal qilish; shaxsiy bilimlar va konfiguratsiyalarni repozitoriylarda saqlang.
+
+## Minnatdorchilik
+  Loyiha xonim Allaning tashabbusi bilan boshlandi. O‘zbekcha lokalizatsiya janob Davlatbek sharafiga bag‘ishlangan.

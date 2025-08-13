@@ -82,3 +82,6 @@ Git — https://git-scm.com — is the industry‑standard version control well 
 - Key benefits: change history, collaboration, backup, branching for experiments, and a standardized team workflow — Git is the lingua franca of IT.
 
 At minimum for everyone: clone/commit/branch, open PR/MR, resolve conflicts; keep personal knowledge and configs in repositories.
+
+## Gratitude
+  This project was initiated at the prompting of Ms. Alla. The Uzbek localization is made in honor of Mr. Davlatbek.
