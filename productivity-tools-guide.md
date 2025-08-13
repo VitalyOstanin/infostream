@@ -247,7 +247,6 @@
 
 ---
 
-<a id="methodologies"></a>
 ## Методологии управления знаниями и задачами
 
 ### Getting Things Done (GTD)

@@ -12,7 +12,8 @@ Short, practical guidance to keep control over information, security, and produc
 - [Working with Information Streams](#working-with-information-streams)
 - [Quick Search Examples](#quick-search-examples)
 - [Short Checklist](#short-checklist)
- - [Why Git Matters Beyond Developers](#why-git-matters-beyond-developers)
+- [Why Git Matters Beyond Developers](#why-git-matters-beyond-developers)
+- [Gratitude](#gratitude)
 
 ## Tooling Organization
 - Primary device: laptop for maximum control; phone is auxiliary.

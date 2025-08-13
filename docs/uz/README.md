@@ -15,7 +15,7 @@ Ma’lumot, xavfsizlik va unumdorlik ustidan nazoratni saqlash uchun qisqa va am
   - [Tezkor qidiruv misollari](#tezkor-qidiruv-misollari)
   - [Qisqa tekshiruv ro‘yxati](#qisqa-tekshiruv-royxati)
   - [Nega Git faqat dasturchilar uchun emas](#nega-git-faqat-dasturchilar-uchun-emas)
-  - [Bag‘ishlov](#bagishlov)
+  - [Minnatdorchilik](#minnatdorchilik)
 
 ## Asboblar tashkiloti
 - Asosiy qurilma: noutbuk — maksimal nazorat; smartfon — yordamchi vosita.
@@ -68,6 +68,7 @@ Misollar (nusxa olish uchun qulay jadval):
 | Merriam‑Webster | mw | https://www.merriam-webster.com/dictionary/%s |
 | Cambridge Dictionary | cd | https://dictionary.cambridge.org/dictionary/english-russian/%s |
 
+<a id="qisqa-tekshiruv-royxati"></a>
 ## Qisqa tekshiruv ro‘yxati
 - Mahalliy, Git bilan versiyalangan bilim bazasi va rivojlanish rejasi.
 - Yangilanishlar va zaxiralar yoqilgan ([3‑2‑1 qoidasi](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/)).
@@ -86,5 +87,6 @@ Git — https://git-scm.com — dasturiy ta’minotdan tashqarida ham keng qo‘
 
 Minimal ko‘nikmalar: klonlash/commit/branch, PR/MR ochish, konfliktlarni hal qilish; shaxsiy bilimlar va konfiguratsiyalarni repozitoriylarda saqlang.
 
+<a id="bagishlov"></a>
 ## Minnatdorchilik
   Loyiha xonim Allaning tashabbusi bilan boshlandi. O‘zbekcha lokalizatsiya janob Davlatbek sharafiga bag‘ishlangan.

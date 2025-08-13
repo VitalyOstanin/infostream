@@ -25,6 +25,7 @@ This repository contains concise, Russian‑language guides on information workf
 - Self‑review for clarity, accuracy, and consistency with existing sections.
 - Verify internal anchors and relative links resolve; check external links open.
 - For images, confirm file exists under `assets/` and renders in preview.
+- After any edits, regenerate Tables of Contents wherever present (keep locale slugs consistent). RU: После всех изменений пересоздавайте оглавления везде, где они есть.
 
 ## Localization & Sync
 - Source of truth: Russian files at root (`README.md`, `productivity-tools-guide.md`).
