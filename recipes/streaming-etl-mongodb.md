@@ -222,9 +222,11 @@ const pool = new MutexPool(50);
 const cursor = reportService.getEnrichedPayments(fromDate, toDate);
 
 for await (const item of cursor) {
-  await pool.start(async () => {
+  const job = async () => {
     await externalApi.sendPaymentReport(item);
-  });
+  };
+
+  await pool.start(job);
 }
 
 await pool.allJobsFinished();
