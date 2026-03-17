@@ -583,7 +583,7 @@ async getPaymentsCsv(
 | **Backpressure** | Ручной (`res.write` + `drain`) | Автоматический через `pipeline()` |
 | **Обогащение данных** | Просто — await внутри цикла | Сложнее — callback не поддерживает await напрямую |
 | **Композиция** | Вложенные генераторы, `yield*` | `.pipe()` цепочки |
-| **Параллельная обработка** | Через ConcurrentGeneratorWorker | Через `parallel-transform` или подобные библиотеки |
+| **Параллельная обработка** | Через [`mutex-pool`](https://github.com/VitalyOstanin/mutex-pool) | Через `parallel-transform` или подобные библиотеки |
 | **Интеграция с fs/http** | Требует ручного моста | Нативная через `pipeline()` |
 | **Обработка ошибок** | try/catch | `pipeline()` обрабатывает автоматически |
 | **Закрытие курсора** | Ручное `cursor.close()` | Автоматическое через `pipeline()` |
@@ -595,7 +595,7 @@ async getPaymentsCsv(
 **Используйте async generators когда:**
 - Нужно обогащать каждый документ дополнительными запросами к другим коллекциям/сервисам
 - Логика трансформации сложная и содержит условные ветвления
-- Нужна параллельная обработка с контролем concurrency (ConcurrentGeneratorWorker)
+- Нужна параллельная обработка с контролем concurrency ([`mutex-pool`](https://github.com/VitalyOstanin/mutex-pool))
 - Важна читаемость и простота отладки
 
 **Используйте Transform Streams когда:**
