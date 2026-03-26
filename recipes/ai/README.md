@@ -6,3 +6,4 @@
 - [Примеры AI-промптов](ai-prompts-examples.md) -- коллекция примеров промптов для работы с AI-агентами
 - [Настройка Claude.ai Team Plan](claude-ai-team-plan-setup.md) -- пошаговая инструкция по регистрации организации, оплате и управлению местами
 - [Кликабельные ссылки на файлы в Claude Code](claude-code-vscode-links.md) -- настройка Kitty + VS Code для открытия файлов по ссылкам из Claude Code
+- [Исправление проблем терминала Kitty после Claude Code](claude-code-kitty-terminal.md) -- сброс keyboard protocol, горячие клавиши для русской раскладки, подавление OSC-утечек
