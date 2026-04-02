@@ -48,7 +48,12 @@ url_prefixes file ftp ftps gemini git gopher http https irc ircs kitty mailto ne
 ```
 mouse_map left click ungrabbed mouse_handle_click selection prompt
 mouse_map ctrl+left click ungrabbed mouse_handle_click link
+mouse_map ctrl+left click grabbed mouse_handle_click link
 ```
+
+Маппинг `grabbed` нужен для fullscreen-режима Claude Code (`CLAUDE_CODE_NO_FLICKER=1`),
+в котором включается mouse tracking (SGR 1000/1002/1006). Без этого маппинга
+Ctrl+Click в fullscreen перехватывается приложением и не открывает ссылки.
 
 ### open-actions.conf
 
